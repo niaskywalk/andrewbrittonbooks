@@ -1,0 +1,127 @@
+a:link { color: #33BAF7; text-decoration: none; font-family: georgia, verdana, arial, sans-serif; }
+
+a:visited { color: #33BAF7; text-decoration: none; font-family:  georgia, verdana, arial, sans-serif;}
+
+a:hover { color: #377C9B; text-decoration: underline; font-family:  georgia, verdana, arial, sans-serif; }
+
+
+a.subnav:link { color: #33BAF7; text-decoration: none; font-family: times; margin: 0px 0px 0px 13px; padding: 0px; }
+
+a.subnav:visited { color: #33BAF7; text-decoration: none; font-family:  times; margin: 0px 0px 0px 13px; padding: 0px; }
+
+a.subnav:hover { color: #377C9B; text-decoration: underline; font-family:  times; margin: 0px 0px 0px 13px; padding: 0px; }
+
+
+a.small:link { color: #990000; text-decoration: none; font-family: georgia, verdana, arial, sans-serif; }
+
+a.small:visited { color: #990000; text-decoration: none; font-family:  georgia, verdana, arial, sans-serif;}
+
+a.small:hover { color: #224766; text-decoration: underline; font-family:  georgia, verdana, arial, sans-serif; }
+
+
+a.white:link { color: #c4b300; text-decoration: none; font-family: georgia, verdana, arial, sans-serif; }
+
+a.white:visited { color: #c4b300; text-decoration: none; font-family:  georgia, verdana, arial, sans-serif;}
+
+a.white:hover { color: #c4a600; text-decoration: underline; font-family:  georgia, verdana, arial, sans-serif; }
+
+
+#comingsoon {width:265px; height:25px; background-color:#FFFFCC; color:#000066; text-align:center; font-family:Georgia, 'Times New Roman', Times, serif; border:1px solid #000033; padding-top:5px; margin-bottom:15px;  position: absolute; top:700px; left: 16px; z-index: 1000;}
+
+.fullpagecomingsoon { }
+
+.fullpageimage { position: absolute; top: 268px; left: 16px; z-index: 100; }
+.fullpagebody  {position: absolute; top: 268px; left: 16px; width: 677px; border-style: solid; border-width: 1px; border-color: #000000; background-color: #EBF1F4;}
+.fullsubnavtitle  {height: 53px; background-image: url(../images/page/bg_subnav.jpg); background-position: right; align-vertical: middle; margin: 0px; padding: 0px;}
+.bookssubnavtitle  {height: 53px; background-image: url(../images/page/bg_subnav.jpg); background-position: left; background-repeat: no-repeat; background-color: #ffffff; align-vertical: middle; margin: 0px; padding: 0px;}
+.fullsubnavcontent  {margin: 5px; text-align: right; vertical-align: middle;}
+
+
+.columnpageimage  { position: absolute; top: 268px; left: 450px; border-style: solid; border-width: 1px; border-color: #000000; background-color: #ffffff; }
+.columnpagebody  {  border-style: solid; border-width: 1px; border-color: #000000; background-color: #EBF1F4; padding: 0px; margin: 0px; }
+.columnsubnavtitle  {height: 53px; background-image: url(../images/page/bg_subnav.jpg); background-position: right; align-vertical: middle; margin: 0px; padding: 0px;}
+.columnsubnavcontent  {margin: 5px; text-align: right; vertical-align: middle;}
+
+
+.homesubnavtitle  {  width: 405px; height: 72px; background-image: url(../images/page/bg_subnav_home.jpg); align-vertical: middle; margin: 0px; padding: 0px; }
+.homesubnavcontent  { margin: 5px; text-align: right; vertical-align: middle; }
+
+
+div.columntext {margin: 20px; padding: 0px;}
+div.fulltext { padding: 0px; margin: 25px; }
+
+.text {  font-family: georgia, verdana, arial, sans-serif; color: #377C9B; }
+.title {  font-family: times; font-weight: normal; color: #377C9B;}
+.small-text {  font-family: georgia, verdana, arial, sans-serif; color: #000000;}
+.red {  font-family: georgia, verdana, arial, sans-serif; color: #990000;}
+.white { font-family: georgia, verdana, arial, sans-serif; color: #ffffff; }
+
+.quote { font-face: times; font-size: 18px; color: #377C9B; }
+.quote2 { font-face: times; font-size: 14px; font-style: italic; color: #377C9B; }
+
+.bgpage { background-image: url(../images/page/bg.gif); background-position: top left; background-repeat: repeat-y; }
+
+blockquote {margin-left: 50px; margin-top: 25px; margin-right: 50px; margin-bottom: 25px; }
+
+.bold {  font-family: verdana, arial, sans-serif; font-weight: bold; color: #990000;}
+
+.signature { position: absolute; float: right; top: 150px; left: 216px; z-index: 100; }
+
+
+/*APRIL 2009 Structure*/
+
+.container {
+width:720px;
+background-image:url(../images/page/bg_text_top.jpg);
+background-position:top left;
+background-repeat:no-repeat;
+padding:15px;
+min-height:691px;
+}
+
+*html .container {
+height:691px;
+}
+
+.footer {
+width:750px;
+height:48px;
+background:#000;
+margin-bottom:15px;
+}
+
+.leftcol {
+position: relative;
+width: 440px;
+padding-bottom: 30px;
+margin: 0px;
+float:left;
+}
+
+.rightcol {
+width:242px;
+float:left;
+margin:0;
+padding-left:10px;
+}
+
+.bookbar {
+width:720px;
+text-align:center;
+}
+
+.bookbar .wrap {
+width: 700px;;
+margin:0 auto;
+color:#fff;
+}
+
+
+.bookbar img {
+padding: 0 5px;
+}
+
+
+#home .columnpagebody  {  border-style: solid; border-width: 1px; border-color: #000000; background-color: #EBF1F4; padding: 0px; margin: 0px; }
+#home .columnsubnavtitle  {height: 53px; width:440px; background-image: url(../images/page/bg_subnav.jpg); background-position: right; margin: 0px; padding: 0px; background-color:#fff;}
+#home .columnsubnavcontent  {margin: 5px; text-align: right; vertical-align: middle;}

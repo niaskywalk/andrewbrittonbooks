@@ -1,0 +1,38 @@
+a:link { font-size: 8pt; }
+
+a:visited { font-size: 8pt; }
+
+a:hover { font-size: 8pt; }
+
+
+a.subnav:link { font-size: 14pt; }
+
+a.subnav:visited { font-size: 14pt; }
+
+a.subnav:hover { font-size: 14pt; }
+
+
+a.small:link { font-size: 7pt; }
+
+a.small:visited { font-size: 7pt; }
+
+a.small:hover { font-size: 7pt; }
+
+
+a.white:link { font-size: 8pt; }
+
+a.white:visited { font-size: 8pt; }
+
+a.white:hover { font-size: 8pt; }
+
+
+.text {  font-size: 8pt; line-height: 14pt; }
+.title {  font-size: 17pt; }
+.small-text {  font-size: 7pt; }
+.red {  font-size: 8pt; }
+.white { font-size: 8pt; }
+
+
+.bold {  font-size: 13pt; }
+
+.signature { position: absolute; float: right; top: 150px; left: 216px; z-index: 100; }
